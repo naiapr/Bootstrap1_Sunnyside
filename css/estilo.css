@@ -1,151 +1,138 @@
-/*Configurações header*/
-.bg-topo{
-    background-color: #68627a;
+body{
+    /*background: cadetblue;*/
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+    font-size: 18px;
+    /*font-family: 'Fraunces', serif;*/
 }
-.btn-orcamento{
-    border: 2px solid #ffff;
-    background: none;
-    position: relative;
+.bg-image-full{
+    background-image: url(../images/desktop/image-header.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 617px;
+    
+}
+
+.nav-a{
+    font-weight: 600;
     color: white;
-    z-index: 1;
-    border-radius: 30px;
-    height: 100%;
 }
-.btn-orcamento:hover{
-    color: #68627a;
-    background: white;
-    border-color: white;
-    transition: all .50s ease-in-out;
-    -moz-transition: all .50s ease-in-out;
-    -webkit-transition: all .50s ease-in-out;
-}
-/*Serviços*/
-.bg-servicos{
-    background: linear-gradient(131.26deg,#312b45 30%, #ff3859 100%);
-}
-/*Parceiros*/
-.bg-parceiros{
-    background-color: #f2f0f7;
-}
-.padding-parceiros{
-    padding: 2px !important;
-}
-.sombra:hover{
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
-}
-/*Parallaxe*/
-.bg-parallax{
-    background: url(../img/bg.jpg) fixed;
-    /*position: relative;*/
-}
-.fatos{
-    text-align: center;
-    color: #fff;
-}
-.fatos .icon i{
-    font-size: 50px;
-    color: #fff;
-}
-.fatos h3{
-    font-size: 35px;
-    color: #fff;
-    margin-bottom: 5px;
-    font-weight: 700;
-    letter-spacing: 1px;
-}
-.fatos h4{
-    font-size: 20px;
-    color: #fff;
-    font-weight: 400;
-    letter-spacing: 1px;
-}
-/*Seção cursos*/
-.tabela-preco{
-    padding: 0 0 40px 0;
-    margin: 0 auto;
-    margin-bottom: 5px;
-    text-align: center;
-    background-color: #fff;
-    border: 1px solid #f1f1f1;
-}
-.tabela-preco .preco-detalhe h2{
-    font-size: 26px;
-    font-weight: 700;
-    color: #333;
-    text-transform: uppercase;
-    background-color: #f1f1f1;
-    padding: 30px 0;
-}
-.tabela-preco .preco-detalhe span{
-    display: block;
-    font-size: 48px;
-    font-weight: 400;
-    color: #4c465f;
-    margin-bottom: 20px;
-}
-.tabela-preco .preco-detalhe ul{
-    margin-bottom: 35px;
-    padding: 0 !important;
-}
-.tabela-preco .preco-detalhe ul li{
+.nav-a:hover{
+    font-family: 'Fraunces', serif;
     padding: 10px;
-    font-size: 15px;
-    border-bottom: 1px dotted #f1f1f1;
-    list-style: none;
+    background: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: black;
+    border-radius: 50px; 
 }
-.btn-preco{
-    border: 1px solid #ff3859;
-    background-color: #ff3859;
-    position: relative;
-    color: #fff;
-    z-index: 1;
-    border-radius: 30px;
+.title-nav{
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing:10px;
 }
-.btn-preco:hover{
-    color: #fff;
-    background: #4c465f;
-    border-color: #4c465f;
-    transition: all.50s ease-in-out;
-    -moz-transition: all.50s ease-in-out;
-    -webkit-transition: all.50s ease-in-out;
+.content-title{
+    font-family: 'Fraunces', sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+    text-align: left;
 }
-/*rodapé*/
-.bg-rodape1{
-    background-color: #312b45;
+.content-p{
+    text-align: left;
+    line-height: 1.5;
 }
-.bg-rodape1 ul{
-    -webkit-padding-start: 0;
-    -moz-padding-start: 0;
+.content-a{
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 900;
+    letter-spacing: 5;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    line-height: 5;
+    
 }
-.bg-rodape1 ul li{
-    list-style: none;
+.content-a:hover{
+    color: black;
+    text-decoration: none;
+    border-bottom: 8px double hsl(51, 100%, 49%); 
 }
-.bg-card-rodape{
-    background-color: #ff3859;
+.img-title{
+    font-family: 'Fraunces', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
 }
-.icon-banner-rodape{
-    color: #c42841;
+.img-p{
+    text-align: center;
+    line-height: 1.5;
 }
-.bg-rodape2{
-    background-color: #4c465f;
+.design-cor{
+    color: hsl(167, 40%, 24%);
+    font-weight: bold;
 }
-a.icon-social{
-    color: #b3aec2;
+.photo-cor{
+    color: hsl(198, 62%, 26%);
+    font-weight: bold;
 }
-/*Configurações Gerais*/
-.underline{
-    content: '';
-    border-top: 2px solid #ff3859;
-    width: 70px;
-    display: block;
-    margin-bottom: 8px;
-    margin: 0 auto;
+.img-copo{
 }
-.underline-footer{
-    content: '';
-    border-top: 2px solid #ff3859;
-    width: 70px;
-    display: block;
-    margin-top: 5px;
-   
+.bg-image-content1{
+    background-image: url(../images/desktop/image-graphic-design.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+
+}
+.bg-image-content2{
+    background-image: url(../images/desktop/image-photography.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+}
+.cliente-title{
+    font-family: 'Fraunces', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    color:  hsl(210, 4%, 67%);
+}
+.cliente-img{
+    border-radius: 50%;
+    width: 35%;
+}
+.cliente-p{
+    text-align: center;
+    font-weight: bold;
+}
+.cliente-p2{
+    color: hsl(232, 10%, 55%);
+    text-align: center;
+}
+.cliente-s{
+    font-family: 'Fraunces', sans-serif;
+    text-align: center;
+    font-weight: 700;
+}
+footer{
+    background:hsl(155, 51%, 60%);
+}
+.a-footer {
+    color: hsl(168, 67%, 24%);
+    font-weight: bold;
+}
+.a-footer:hover{
+    color: hsl(168, 67%, 24%);
+    text-decoration: none;
+}
+.icon-social{
+    color: hsl(168, 67%, 24%);
+}
+.icon-social:hover{
+    color: hsl(168, 67%, 24%);
+    text-decoration: none;
 }
