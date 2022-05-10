@@ -1,11 +1,8 @@
 body{
-    /*background: cadetblue;*/
     font-family: 'Barlow', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Source Sans Pro', sans-serif;
-    
     font-size: 18px;
-    /*font-family: 'Fraunces', serif;*/
 }
 .bg-image-full{
     background-image: url(../images/desktop/image-header.jpg);
@@ -77,8 +74,6 @@ body{
 .photo-cor{
     color: hsl(198, 62%, 26%);
     font-weight: bold;
-}
-.img-copo{
 }
 .bg-image-content1{
     background-image: url(../images/desktop/image-graphic-design.jpg);
